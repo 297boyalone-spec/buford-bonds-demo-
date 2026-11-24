@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BUFORD BONDS CHARITABLE ORG. | Building Brighter Futures, One Life at a Time</title>
+  <meta name="description" content="BUFORD BONDS CHARITABLE ORG. – A United States-based humanitarian organization dedicated to children's education, healthcare and support for vulnerable families." />
+  <meta name="theme-color" content="#0A1F44" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230A1F44'/%3E%3Cpath d='M30 58 Q50 35 70 58' stroke='%23C9A227' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3Cpath d='M35 60 Q50 78 65 60' stroke='%23C9A227' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3Cpath d='M50 42 C44 36 36 39 36 46 C36 54 50 62 50 62 C50 62 64 54 64 46 C64 39 56 36 50 42 Z' fill='%23C9A227'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --navy: #0A1F44;
+      --navy-dark: #061530;
+      --navy-light: #132F5E;
+      --gold: #C9A227;
+      --gold-light: #E0C05A;
+      --white: #FFFFFF;
+      --off-white: #F7F6F3;
+      --soft-gray: #E6E4DF;
+      --text: #1A1A1A;
+      --text-muted: #5C5C5C;
+      --shadow: 0 12px 40px rgba(10, 31, 68, 0.08);
+      --radius: 14px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    .container {
+      width: 100%;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header */
+    .header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(10, 31, 68, 0.06);
+      transition: box-shadow 0.3s ease;
+    }
+    .header.scrolled { box-shadow: 0 4px 24px rgba(10, 31, 68, 0.09); }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between; height: 82px;
+    }
+    .logo { display: flex; align-items: center; gap: 14px; }
+    .logo-svg { width: 50px; height: 50px; flex-shrink: 0; }
+    .logo-text { display: flex; flex-direction: column; }
+    .logo-text strong {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.18rem; color: var(--navy); letter-spacing: 0.4px;
+    }
+    .logo-text span {
+      font-size: 0.68rem; color: var(--gold); font-weight: 600;
+      letter-spacing: 1.6px; text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex; align-items: center; gap: 30px; list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.9rem; font-weight: 500; color: var(--navy); transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 13px 28px; font-size: 0.9rem; font-weight: 600;
+      border-radius: 50px; border: none; cursor: pointer;
+      transition: all 0.25s ease; text-align: center; font-family: inherit;
+    }
+    .btn-primary { background: var(--navy); color: var(--white); }
+    .btn-primary:hover {
+      background: var(--navy-dark); transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgba(10, 31, 68, 0.28);
+    }
+    .btn-gold { background: var(--gold); color: var(--navy)
+... 
